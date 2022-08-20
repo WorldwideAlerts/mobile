@@ -1,0 +1,441 @@
+body {
+    background-color: lightyellow;
+  }
+  .maintitle{
+    color: black;
+    font-size: large;
+    font-family: 'Garamond';
+    letter-spacing: 0.05cm;
+    text-align: center;
+    text-shadow: 1px 1px 2px red;
+    padding: 1%;
+    padding-right: 13cm;
+    margin: -8px;
+    background-color: whitesmoke;
+    position: relative;
+}
+a {color: inherit;}
+.link {
+  text-decoration: none;
+}
+.logo{
+    width: 150px;
+    margin-top: -2.8cm;
+    margin-left: -13.5cm;
+    clip-path: circle();
+    position: relative;
+    right: 4.4cm;
+}
+.blogs {
+  margin-left: 21.3cm;
+  padding-bottom: 1.45cm;
+  margin-top: -2.45cm;
+}
+.subsection {
+  font-size: 45px;
+  color: black;
+  font-family: 'Garamond';
+  letter-spacing: 0.05cm;
+  text-align: center;
+  text-shadow: 1px 1px 2px red;
+}
+.our-mission {
+  margin-left: 25.55cm;
+  margin-top: -2.8cm;
+}
+.donate {
+  margin-left: 30.1cm;
+  margin-top: -1.4cm;
+}
+.contact {
+  margin-left: 34.17cm;
+  margin-top: -1.33cm;
+}
+.subsection {
+  position: relative;
+  left: 0.7cm;
+}
+  * {
+    box-sizing: border-box;
+  }
+  
+  .nav {
+    height: 70px;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    border-style: double;
+    border-width: 5px;
+
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 32px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Alumni Sans Pinstripe';
+    font-weight: bolder;
+    margin-top: -0.6cm;
+    font-size: 70px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 50px;
+    font-family: 'Dosis';
+    font-weight: bold;
+    margin-top:-0.5cm;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+  .monkeypox-title h1 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .monkeypox-title img {
+    margin-left: 3.75cm;
+    border-style: double;
+    border-width: 5px;
+  }
+  .intro h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center
+  }
+  .intro p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+  }
+  .background h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .background p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+  }
+  .symptoms h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .symptoms p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+  }
+  .symptoms img {
+    margin-left: 1.3cm;
+    margin-top: 2cm;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 1cm;
+  }
+  .treatments h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .treatments p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+  }
+  .monkeytreatments {
+    margin-left: 1cm;
+    border-style: solid;
+    border-width: 4px;
+  }
+  .monkeytreatments2 {
+    border-style: solid;
+    border-width: 4px;
+    border-color: red;
+  }
+  .credits h2 {
+    font-family: 'Alumni Sans Pinstripe';
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    border-style: double;
+    border-width: 5px;
+    background-color: khaki;
+    margin-bottom: 5cm;
+  }
+  .credits h3 {
+    font-size: small;
+    position: relative;
+    top: -0.5cm;
+  }
+  .equalpay-title h1 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .equalpay-title img {
+    margin-left: 3.5cm;
+    border-style: double;
+    border-width: 5px;
+  }
+  .statistics h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .statistics p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+  }
+  .equalballpay {
+    margin-left: 9cm;
+    border-style: solid;
+    border-width: 10px;
+  }
+  .equalballpay2 {
+    border-style: solid;
+    border-width: 10px;
+    border-color: red; 
+    margin-left: 9cm;
+    margin-top: 1cm;
+  }
+  .wagegap {
+    margin-left: 1cm;
+    margin-top: 1cm;
+    border-style: solid;
+    border-width: 8px;
+  }
+  .equality h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .equality p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+  }
+  .equalpaynow {
+    border-style: double;
+    border-width: 8px;
+    border-radius: 2cm;
+    margin-left: 1.1cm;
+    margin-top: 1cm;
+  }
+  .womanscale {
+    margin-left: 9cm;
+    margin-top: 0.5cm;
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+  }
+  .equality h2 {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+  }
+  .workcited h3 {
+    text-decoration: none;
+  }
+  .muslims-title h1 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .muslims {
+    margin-left: 4cm;
+    border-style: double;
+    border-width: 5px;
+  }
+  .muslim {
+    margin-left: 2.6cm;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #000;
+  }
+  .camps h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .camps p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px; 
+  }
+  .camps img {
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 0.3cm;
+  }
+  .help h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .help p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px; 
+  }
+  .camps2 {
+    border-style: solid;
+    border-width: 4px;
+    border-color: red;
+  }
+  .help img {
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 2cm;
+    margin-left: 1.2cm;
+    margin-top: 1.5cm;
+  }
+  .footer {
+    border-style: solid;
+    border-color: #ececec;
+    border-width: 32.5px;
+    padding-top: 0.3cm;
+    background-color: #ececec;
+    margin-bottom: -7cm;
+    margin-right: -0.2111cm;
+    margin-left: -0.2111cm;
+    margin-top: -4cm;
+  }
+  .footer-text {
+      margin-left: 0.5cm ;
+      font-family: 'Dosis';
+      font-size: 7px;
+  }
+  .footer-text1 {
+      color: black;
+      font-size: large;
+      font-family: 'Garamond';
+      letter-spacing: 0.05cm;
+      text-align: center;
+      text-shadow: 1px 1px 2px red;
+      text-align: right;
+      margin-right: -0.8cm;
+      margin-top: -1.8cm;
+      font-size: 10px;
+  }
+  .footer-contact-gmail img {
+    margin-top: 5.5cm;
+    margin-left: 16cm;
+  }
+  .footer-contact-insta img {
+    margin-top: -3.5cm;
+    margin-left: 16cm;
+  }
+  .footer-contact-text {
+    font-family: 'Dosis';
+    color: #000;
+    font-weight: bolder;
+    margin-top: -3.35cm;
+    margin-left: 18.2cm;
+    font-size: 8px;
+  }
