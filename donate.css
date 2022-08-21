@@ -25,7 +25,6 @@ a {color: inherit;}
     clip-path: circle();
     position: relative;
     right: 4.4cm;
-    top: -0.3cm;
 }
 .blogs {
   margin-left: 21.3cm;
@@ -55,6 +54,7 @@ a {color: inherit;}
 .subsection {
   position: relative;
   left: 0.7cm;
+  top: -0.3cm;
 }
   .donate h1 {
     font-family: 'Bebas Neue';
@@ -78,7 +78,7 @@ a {color: inherit;}
     font-family: 'Jost';
     margin-left: -12.6cm;
     margin-top: 2cm;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bolder;
   }
   .monkeypox-donation img {
