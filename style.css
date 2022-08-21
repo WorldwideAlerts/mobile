@@ -238,7 +238,7 @@ a {color: inherit;}
   #mission p {
     text-indent: 1cm;
     text-align: center;
-    font-size: large;
+    font-size: 65px;
     font-family: 'Lora';
     margin-top: -0.5cm;
   }
@@ -273,13 +273,13 @@ a {color: inherit;}
     font-size: large;
   }
   #join h4 {
-    font-size: 50px;
+    font-size: 60px;
     position: relative;
-    top: -5cm;
+    top: -4cm;
   }
   #join h2 {
-    margin-left: 3cm;
-    font-size: 65px;
+    margin-left: 1.3cm;
+    font-size: 75px;
     position: relative;
     top: -4cm;
   }
@@ -288,7 +288,7 @@ a {color: inherit;}
     top: -5cm;
   }
   .line {
-    margin-top: -16.5cm;
+    margin-top: -8cm;
     float: left;
     padding-left: 19.5cm;
   }
@@ -297,7 +297,7 @@ a {color: inherit;}
     background-color: #ff0000;
     border: none;
     padding: 20px;
-    width: 400px;
+    width: 450px;
     text-align: center;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -306,9 +306,9 @@ a {color: inherit;}
     font-family: 'Aboreto';
     font-weight: bolder;
     border-radius: 2cm;
-    left: 0.8cm;
-    bottom: 6.25cm;
-    font-size: 30px;
+    left: 0.4cm;
+    bottom: 6cm;
+    font-size: 35px;
 }
 
 .button-1:hover{
