@@ -275,17 +275,17 @@ a {color: inherit;}
   #join h4 {
     font-size: 60px;
     position: relative;
-    top: -2cm;
+    top: -3cm;
   }
   #join h2 {
     margin-left: 1.3cm;
     font-size: 75px;
     position: relative;
-    top: -1cm;
+    top: -1.5cm;
   }
   #join img {
     position: relative;
-    top: -3.5cm;
+    top: -4.5cm;
   }
   .line {
     margin-top: -8cm;
@@ -307,7 +307,7 @@ a {color: inherit;}
     font-weight: bolder;
     border-radius: 2cm;
     left: 0.4cm;
-    bottom: 5.5cm;
+    bottom: 6.5cm;
     font-size: 35px;
 }
 
