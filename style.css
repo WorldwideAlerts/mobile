@@ -275,7 +275,7 @@ a {color: inherit;}
   #join h4 {
     font-size: 60px;
     position: relative;
-    top: -1cm;
+    top: -2cm;
   }
   #join h2 {
     margin-left: 1.3cm;
@@ -285,7 +285,7 @@ a {color: inherit;}
   }
   #join img {
     position: relative;
-    top: -2.5cm;
+    top: -3.5cm;
   }
   .line {
     margin-top: -8cm;
@@ -307,7 +307,7 @@ a {color: inherit;}
     font-weight: bolder;
     border-radius: 2cm;
     left: 0.4cm;
-    bottom: 4.5cm;
+    bottom: 5.5cm;
     font-size: 35px;
 }
 
