@@ -54,6 +54,7 @@ a {color: inherit;}
 .subsection {
   position: relative;
   left: 0.7cm;
+  top: -0.3cm;
 }
   * {
     box-sizing: border-box;
