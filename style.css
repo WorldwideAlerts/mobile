@@ -288,7 +288,7 @@ a {color: inherit;}
     top: -4.5cm;
   }
   .line {
-    margin-top: -8cm;
+    margin-top: -9cm;
     float: left;
     padding-left: 19.5cm;
   }
@@ -349,9 +349,9 @@ a {color: inherit;}
   margin-top: -4cm;
 }
 .footer-text {
-    margin-left: 0.5cm ;
+    margin-left: -0.5cm ;
     font-family: 'Dosis';
-    font-size: 7px;
+    font-size: 20px;
 }
 .footer-text1 {
     color: black;
@@ -362,22 +362,22 @@ a {color: inherit;}
     text-shadow: 1px 1px 2px red;
     text-align: right;
     margin-right: -0.8cm;
-    margin-top: -1.8cm;
-    font-size: 10px;
+    margin-top: -1.9cm;
+    font-size: 40px;
 }
 .footer-contact-gmail img {
-  margin-top: 5.5cm;
+  margin-top: 4.2cm;
   margin-left: 16cm;
 }
 .footer-contact-insta img {
-  margin-top: -3.5cm;
+  margin-top: -4cm;
   margin-left: 16cm;
 }
 .footer-contact-text {
   font-family: 'Dosis';
   color: #000;
   font-weight: bolder;
-  margin-top: -3.35cm;
+  margin-top: -3.8cm;
   margin-left: 18.2cm;
-  font-size: 8px;
+  font-size: 35px;
 }
