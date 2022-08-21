@@ -3,7 +3,7 @@ body {
 }
 .maintitle{
     color: black;
-    font-size: large;
+    font-size: xx-large;
     font-family: 'Garamond';
     letter-spacing: 0.05cm;
     text-align: center;
@@ -232,13 +232,13 @@ a {color: inherit;}
   #mission h2 {
     text-align: center;
     font-family: 'Bebas Neue';
-    font-size: 40px;
+    font-size: 50px;
     font-weight: lighter;
   }
   #mission p {
     text-indent: 1cm;
     text-align: center;
-    font-size: small;
+    font-size: large;
     font-family: 'Lora';
     margin-top: -0.5cm;
   }
@@ -270,22 +270,22 @@ a {color: inherit;}
     margin-left: 21cm;
     margin-top: -4.3cm;
     font-family: 'Alumni Sans Pinstripe';
-    font-size: x-large;
+    font-size: large;
   }
   #join h4 {
-    font-size: 60px;
+    font-size: 50px;
     position: relative;
-    top: -11cm;
+    top: -5cm;
   }
   #join h2 {
-    margin-left: 1.3cm;
-    font-size: 75px;
+    margin-left: 3cm;
+    font-size: 65px;
     position: relative;
-    top: -12cm;
+    top: -4cm;
   }
   #join img {
     position: relative;
-    top: -10.5cm;
+    top: -5cm;
   }
   .line {
     margin-top: -16.5cm;
@@ -297,7 +297,7 @@ a {color: inherit;}
     background-color: #ff0000;
     border: none;
     padding: 20px;
-    width: 450px;
+    width: 400px;
     text-align: center;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -306,9 +306,9 @@ a {color: inherit;}
     font-family: 'Aboreto';
     font-weight: bolder;
     border-radius: 2cm;
-    left: 0.4cm;
-    bottom: 11.5cm;
-    font-size: 35px;
+    left: 0.8cm;
+    bottom: 6.25cm;
+    font-size: 30px;
 }
 
 .button-1:hover{
