@@ -78,7 +78,7 @@ a {color: inherit;}
     font-family: 'Jost';
     margin-left: -12.6cm;
     margin-top: 2cm;
-    font-size: 38px;
+    font-size: 32x;
     font-weight: bolder;
   }
   .monkeypox-donation img {
@@ -189,13 +189,13 @@ hr {
 .footer {
   border-style: solid;
   border-color: #ececec;
-  border-width: 32.5px;
+  border-width: 35.5px;
   padding-top: 0.3cm;
   background-color: #ececec;
   margin-bottom: -7cm;
   margin-right: -0.2111cm;
   margin-left: -0.2111cm;
-  margin-top: -4cm;
+  margin-top: -5cm;
 }
 .footer-text {
     margin-left: -0.5cm ;
