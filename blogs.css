@@ -440,4 +440,63 @@ a {color: inherit;}
     margin-left: 17cm;
     font-size: 35px;
   }
-  
+  .cybersecurity-title h1 {
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .cybersecurity-title img {
+    margin-left: 3.5cm;
+    border-style: double;
+    border-width: 5px;
+  }
+  .report h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .report p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+  }
+  .metahack {
+    margin-left: 1.5cm;
+    margin-top: 0.5cm;
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+  }
+  .future h1 {
+    font-family: 'Aboreto';
+    text-decoration: underline;
+    font-weight: lighter;
+    text-align: center;
+  }
+  .future p {
+    font-family: 'Dosis';
+    text-indent: 1.27cm;
+    font-weight: 600;
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+  }
+  .metahope {
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+  }
+  .cybersecurity {
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+  }
