@@ -136,14 +136,17 @@ a {color: inherit;}
   }
   
   .slide-1 {
-    background-image: url(images/monkeypox.jpg);
+    background-image: url(images/meta.jpg);
   }
   
   .slide-2 {
-    background-image: url(images/china.jpg);
+    background-image: url(images/monkeypox.jpg);
   }
   
   .slide-3 {
+    background-image: url(images/china.jpg);
+  }
+  .slide-4 {
     background-image: url(images/equalpay.jpg);
   }
   
