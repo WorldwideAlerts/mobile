@@ -188,10 +188,15 @@ a {color: inherit;}
   .slider input:nth-child(3):checked ~ .slides {
     left: -200%;
   }
+
+  .slider input:nth-child(4):checked ~ .slides {
+    left: -300%;
+  }
   
   .slider input:nth-child(1):checked ~ .arrows label:nth-child(1),
   .slider input:nth-child(2):checked ~ .arrows label:nth-child(2),
-  .slider input:nth-child(3):checked ~ .arrows label:nth-child(3) {
+  .slider input:nth-child(3):checked ~ .arrows label:nth-child(3) 
+  .slider input:nth-child(4):checked ~ .arrows label:nth-child(4){
     display: block;
   }
   
@@ -213,7 +218,8 @@ a {color: inherit;}
   
   .slider input:nth-child(1):checked ~ .dots label:nth-child(1),
   .slider input:nth-child(2):checked ~ .dots label:nth-child(2),
-  .slider input:nth-child(3):checked ~ .dots label:nth-child(3) {
+  .slider input:nth-child(3):checked ~ .dots label:nth-child(3)
+  .slider input:nth-child(4):checked ~ .dots label:nth-child(4){
     background-color: #000;
     border: 2px solid #fff;
   }
